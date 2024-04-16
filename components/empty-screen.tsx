@@ -3,20 +3,20 @@ import { ArrowRight } from 'lucide-react'
 
 const exampleMessages = [
   {
-    heading: 'Why is Nvidia growing rapidly?',
-    message: 'Why is Nvidia growing rapidly?'
+    heading: 'Is there proof of Joseph in Egypt?',
+    message: 'Is there proof of Joseph in Egypt?'
   },
   {
-    heading: 'Is the Apple Vision Pro worth buying?',
-    message: 'Is the Apple Vision Pro worth buying?'
+    heading: 'How many prophecies does the Bible fufill?',
+    message: 'How many prophecies does the Bible fufill?'
   },
   {
-    heading: 'How does the Vercel AI SDK work?',
-    message: 'How does the Vercel AI SDK work?'
+    heading: 'What is the evidence for God?',
+    message: 'What is the evidence for God?'
   },
   {
-    heading: 'Tesla vs Rivian',
-    message: 'Tesla vs Rivian'
+    heading: 'Evolution vs Creationism',
+    message: 'Evolution vs Creationism'
   }
 ]
 export function EmptyScreen({
