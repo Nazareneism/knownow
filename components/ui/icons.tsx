@@ -12,9 +12,8 @@ function IconLogo({ className, ...props }: React.ComponentProps<'svg'>) {
       className={cn('h-4 w-4', className)}
       {...props}
     >
-      <circle cx="128" cy="128" r="128" fill="black"></circle>
-      <circle cx="102" cy="128" r="18" fill="white"></circle>
-      <circle cx="154" cy="128" r="18" fill="white"></circle>
+      <rect x="118" y="28" width="20" height="200" fill="black"></rect> <!-- Vertical part of the cross -->
+      <rect x="58" y="88" width="140" height="20" fill="black"></rect> <!-- Horizontal part of the cross -->
     </svg>
   )
 }
