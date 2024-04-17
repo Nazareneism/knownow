@@ -90,6 +90,7 @@ export function ChatPanel() {
   return (
     <div className={formPositionClass}>
       {/* <IconKuroko className="w-6 h-6 mb-4" /> */}
+      <h1 className="text-xl font-bold text-center mb-4">KnowNow</h1> {/* Title added here */}
       <form onSubmit={handleSubmit} className="max-w-2xl w-full px-6">
         <div className="relative flex items-center w-full">
           <Input
