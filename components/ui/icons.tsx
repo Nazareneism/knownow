@@ -1,22 +1,17 @@
 'use client'
 
+import React from 'react'; // Ensure React is in scope when using JSX
 import { cn } from '@/lib/utils'
 
-function IconLogo({ className, ...props }: React.ComponentProps<'svg'>) {
+function IconLogo({ className, ...props }: React.ImgHTMLAttributes<HTMLImageElement>) {
   return (
-    <svg
-      fill="currentColor"
-      viewBox="0 0 256 256"
-      role="img"
-      xmlns="http://www.w3.org/2000/svg"
+    <img
+      src="app/favicon.ico" // Adjust the path as necessary
+      alt="Logo"
       className={cn('h-4 w-4', className)}
       {...props}
-    >
-      <circle cx="128" cy="128" r="128" fill="black"></circle>
-      <circle cx="102" cy="128" r="18" fill="white"></circle>
-      <circle cx="154" cy="128" r="18" fill="white"></circle>
-    </svg>
-  )
+    />
+  );
 }
 
-export { IconLogo }
+export { IconLogo };
