@@ -9,7 +9,8 @@ function IconLogo({ className, ...props }: React.ComponentProps<'div'>) {
       <Image
         src="/app/favicon.ico"
         alt="Logo"
-        layout="fill"
+        width={16}
+        height={16}
         objectFit="contain"
       />
     </div>

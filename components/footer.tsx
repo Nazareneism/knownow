@@ -16,24 +16,6 @@ const Footer: React.FC = () => {
             <SiDiscord size={18} />
           </Link>
         </Button>
-        <Button
-          variant={'ghost'}
-          size={'icon'}
-          className="text-muted-foreground/50"
-        >
-          <Link href="https://twitter.com/" target="_blank">
-            <SiTwitter size={18} />
-          </Link>
-        </Button>
-        <Button
-          variant={'ghost'}
-          size={'icon'}
-          className="text-muted-foreground/50"
-        >
-          <Link href="https://github.com/karmlin/knownow" target="_blank">
-            <SiGithub size={18} />
-          </Link>
-        </Button>
       </div>
     </footer>
   )
