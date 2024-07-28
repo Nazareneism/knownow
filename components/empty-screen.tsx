@@ -7,8 +7,8 @@ const exampleMessages = [
     message: 'Is there proof of Joseph in Egypt?'
   },
   {
-    heading: 'How many prophecies does the Bible fufill?',
-    message: 'How many prophecies does the Bible fufill?'
+    heading: 'How many prophecies does the Bible fulfill?',
+    message: 'How many prophecies does the Bible fuflill?'
   },
   {
     heading: 'What is the evidence for God?',
