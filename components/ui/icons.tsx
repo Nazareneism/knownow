@@ -7,7 +7,7 @@ function IconLogo({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div className={cn('h-4 w-4 relative', className)} {...props}>
       <Image
-        src="../app/Logo1.png"
+        src="/Logo1.png"
         alt="Logo"
         width={16}
         height={16}
