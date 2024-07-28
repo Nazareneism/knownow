@@ -11,6 +11,7 @@ function IconLogo({ className, ...props }: React.ComponentProps<'div'>) {
         alt="Logo"
         width={16}
         height={16}
+        layout="fill"
         objectFit="contain"
       />
     </div>
