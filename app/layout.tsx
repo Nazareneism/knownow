@@ -12,9 +12,9 @@ const fontSans = FontSans({
   variable: '--font-sans'
 })
 
-const title = 'KnowNow'
+const title = 'Prosessr'
 const description =
-  'A fully featured AI-powered Bible answer engine with generative UI.'
+  'A fully featured AI-powered search engine with generative UI.'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://knownow.vercel.app'),
