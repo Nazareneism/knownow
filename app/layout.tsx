@@ -22,13 +22,22 @@ export const metadata: Metadata = {
   description,
   openGraph: {
     title,
-    description
+    description,
+    images: [
+      {
+        url: 'https://i.imgur.com/AR9NRK1.png',
+        width: 1200,
+        height: 630,
+        alt: 'Prosessr - AI-powered search engine'
+      }
+    ]
   },
   twitter: {
     title,
     description,
     card: 'summary_large_image',
-    creator: '@karmlin'
+    creator: '@karmlin',
+    images: ['https://i.imgur.com/AR9NRK1.png']
   }
 }
 
